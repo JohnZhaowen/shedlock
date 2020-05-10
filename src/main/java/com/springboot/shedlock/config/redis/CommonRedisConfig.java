@@ -46,7 +46,7 @@ public class CommonRedisConfig {
                 .build();
 
         LettuceClientConfiguration clientConfiguration = LettuceClientConfiguration.builder()
-                .clientName("mom-redis")
+                .clientName("my-redis")
                 .clientOptions(build)
                 .build();
         RedisProperties.RedisMode mode = properties.getMode();
